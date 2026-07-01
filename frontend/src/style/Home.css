@@ -1,0 +1,86 @@
+
+.home-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px 48px;
+}
+
+.header {
+  text-align: center;
+  padding: 52px 20px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-logo {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+.cafe {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #c2185b;
+  letter-spacing: -0.5px;
+}
+
+.discover {
+  font-size: 1.1rem;
+  color: #999999;
+  font-weight: 400;
+}
+
+.search {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto 40px;
+  padding: 13px 24px;
+
+  border: 1.5px solid #f9c6d0;
+  border-radius: 50px;
+  font-size: 15px;
+  color: #444444;
+  background: #ffffff;
+  outline: none;
+  box-sizing: border-box;
+  box-shadow: 0 4px 16px rgba(233, 30, 140, 0.08);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.search:focus {
+  border-color: #f06292;
+  box-shadow: 0 0 0 4px rgba(240, 98, 146, 0.12);
+}
+
+.search::placeholder {
+  color: #cccccc;
+}
+
+
+.section-title {
+  text-align: center;
+  margin: 48px 0 24px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #c2185b;
+}
+
+.cafes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+.loading-div {
+  text-align: center;
+  padding: 48px 20px;
+}
+
+.loading {
+  color: #999999;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+

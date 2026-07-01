@@ -1,0 +1,103 @@
+
+body {
+  background-color: #f9c6d0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+.container-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 40px 16px;
+}
+
+.register {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 40px 36px;
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.register h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 4px;
+}
+
+.register-input {
+  width: 100%;
+  padding: 13px 18px;
+  border: 1.5px solid #f9c6d0;
+  border-radius: 50px;
+  font-size: 15px;
+  color: #555555;
+  outline: none;
+  background: #ffffff;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.register-input:focus {
+  border-color: #f06292;
+}
+
+.register-input::placeholder {
+  color: #bbbbbb;
+}
+
+.register-option {
+  width: 100%;
+  padding: 13px 18px;
+  border: 1.5px solid #f9c6d0;
+  border-radius: 50px;
+  font-size: 15px;
+  color: #555555;
+  outline: none;
+  background: #ffffff;
+  appearance: none;
+  cursor: pointer;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.register-option:focus {
+  border-color: #f06292;
+}
+
+.btn-register {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #f06292, #e91e8c);
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: opacity 0.2s;
+}
+
+.btn-register:hover {
+  opacity: 0.88;
+}
+
+.register > p {
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+}
+
+.register > p a {
+  color: #e91e8c;
+  font-weight: 600;
+  text-decoration: none;
+}

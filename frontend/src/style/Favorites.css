@@ -1,0 +1,53 @@
+
+.favorites-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+.favorites-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+.favorites-empty {
+  color: #999999;
+  font-size: 15px;
+  background: #fff5f7;
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.favorites-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.favorite-card {
+  background: #ffffff;
+  border: 1.5px solid #f9c6d0;
+  border-radius: 16px;
+  padding: 18px 22px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.favorite-card:hover {
+  border-color: #f06292;
+  box-shadow: 0 4px 14px rgba(233, 30, 140, 0.1);
+}
+
+.favorite-card-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #c2185b;
+  margin-bottom: 6px;
+}
+
+.favorite-card-description {
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.5;
+}

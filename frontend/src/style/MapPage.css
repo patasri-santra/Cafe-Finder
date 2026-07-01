@@ -1,0 +1,21 @@
+.map-page {
+  height: calc(100vh - 100px);
+  padding: 20px;
+}
+
+.map-full {
+  height: 100%;
+  width: 100%;
+
+  border-radius: 24px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 15px 40px rgba(
+      255,
+      128,
+      150,
+      0.15
+    );
+}
