@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "../style/Welcome.css";
-import coffee from "../assets/Coffee.jpg";
+import coffee from "../assets/coffee.jpg";
 function Welcome() {
   const navigate = useNavigate();
 
